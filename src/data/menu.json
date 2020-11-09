@@ -1,0 +1,37 @@
+{
+  "data": [ 
+        {
+          "title": "Home", "icon": "home", "type": "sub", "badgeType": "primary", "active": false},
+        {
+          "title": "Product Analytics", "icon": "zoom-in", "type": "sub", "badgeType": "primary", "active": false, "children": [
+            { "path": "/dashboard/default", "title": "Page1", "type": "link" },
+            { "path": "/dashboard/ecommerce", "title": "Page2", "type": "link" }
+          ]
+        },
+        {
+          "title": "Manage Inventory", "icon": "pie-chart", "type": "sub", "badgeType": "primary", "active": true, "children": [
+            { "path": "/dashboard/default", "title": "Active", "type": "link" },
+            { "path": "/dashboard/ecommerce", "title": "Inactive", "type": "link" },
+            { "path": "/dashboard/ecommerce", "title": "Draft", "type": "link" }
+          ]
+        },
+        {
+          "title": "TM Engage", "icon": "home", "type": "sub", "badgeType": "primary", "active": false, "children": [
+            { "path": "/", "title": "Page1", "type": "link" },
+            { "path": "/", "title": "Page2", "type": "link" }
+          ]
+        },
+        {
+          "title": "Account", "icon": "user", "type": "sub", "badgeType": "primary", "active": false, "children": [
+            { "path": "/", "title": "Page1", "type": "link" },
+            { "path": "/", "title": "Page2", "type": "link" }
+          ]
+        },
+        {
+          "title": "Support", "icon": "headphones", "type": "sub", "badgeType": "primary", "active": false, "children": [
+            { "path": "/", "title": "Page1", "type": "link" },
+            { "path": "/", "title": "Page2", "type": "link" }
+          ]
+        }
+      ]
+}
